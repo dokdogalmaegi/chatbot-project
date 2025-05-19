@@ -6,7 +6,7 @@ import json
 CONFLUENCE_BASE_URL = "https://crscube.atlassian.net/wiki"
 PAGE_ID = "3774583295"  # 대상 페이지 ID
 USERNAME = "jylim@crscube.co.kr"
-API_TOKEN = "ATATT3xFfGF08spkceGySeO2bGZWiAjb6pxdBp5DL9UVqKiIByYaUMuZPC1gbldqnS_iqKwVyYzFw1umd54qqFMfvF3LP4WVa7LZ8s2ORuEi9AThm0lZX2mi2gdCz2H_bD4_MWd0iV8dVJkGc4MreGK5jibaYRPpTgr2FUkDadhpucum4V0mJeY=054816A2"
+API_TOKEN = "test"
 
 # REST API URL
 url = f"{CONFLUENCE_BASE_URL}/rest/api/content/{PAGE_ID}?expand=body.storage"
