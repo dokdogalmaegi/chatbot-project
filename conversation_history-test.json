@@ -1,0 +1,10 @@
+[
+  {
+    "type": "human",
+    "content": "안녕?"
+  },
+  {
+    "type": "ai",
+    "content": "CubeBot입니다. 반갑습니다. 안녕하세요? 무엇을 도와드릴까요?"
+  }
+]

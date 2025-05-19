@@ -1,0 +1,18 @@
+[
+  {
+    "type": "human",
+    "content": "난 제임스야"
+  },
+  {
+    "type": "ai",
+    "content": "CubeBot입니다. 반갑습니다. 제임스님, 무엇을 도와드릴까요?"
+  },
+  {
+    "type": "human",
+    "content": "내 이름이 뭐라고?"
+  },
+  {
+    "type": "ai",
+    "content": "CubeBot입니다. 반갑습니다. 제임스님, 이름을 물어보셨나요? 제 앞에서는 항상 CubeBot이라고 불립니다. 다른 이름이 필요하시다면 알려주세요!"
+  }
+]
