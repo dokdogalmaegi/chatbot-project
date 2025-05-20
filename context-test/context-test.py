@@ -13,7 +13,7 @@ documents = loader.load()
 splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
 docs = splitter.split_documents(documents)
 
-# 3. 임베딩 모델 (Ollama 내장 임베딩 사용)
+# 3. 임베딩 모델 (Ollama snowflake model 사용)
 embedding = OllamaEmbeddings(model="snowflake-arctic-embed2:568m")  # 임베딩 가능한 모델 필요
 
 # 4. Vector DB 생성
