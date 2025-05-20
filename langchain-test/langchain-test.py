@@ -80,8 +80,9 @@ if __name__ == "__main__":
             print("👋 종료합니다. 안녕히 가세요!")
 
             history = get_session_history(session_id)
-            save_chat_history_to_json(history.messages, os.path.join(HISTORY_DIR, f"{session_id}_history.json"))
-            print("대화 기록이 conversation_history-test.json에 저장되었습니다.")
+            fileName = os.path.join(HISTORY_DIR, f"{session_id}_history.json")
+            save_chat_history_to_json(history.messages, fileName)
+            print(f"대화 기록이 ${fileName}에 저장되었습니다.")
 
             break
 
